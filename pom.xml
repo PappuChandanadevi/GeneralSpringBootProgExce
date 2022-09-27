@@ -27,26 +27,26 @@
 	</properties>
 	<repositories>
 	    <repository>
-              <id>springfeed</id>
-              <url>https://pkgs.dev.azure.com/chandana9990231/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
-              <releases>
-              <enabled>true</enabled>
-              </releases>
-              <snapshots>
-              <enabled>true</enabled>
-              </snapshots>
-            </repository>
+                <id>springfeed</id>
+                <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
+                <releases>
+                <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                <enabled>true</enabled>
+                </snapshots>
+           </repository>
         </repositories>
 	<distributionManagement>
-	       <repository>
-                    <id>springfeed</id>
-                    <url>https://pkgs.dev.azure.com/chandana9990231/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
-                    <releases>
-                    <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                    <enabled>true</enabled>
-                    </snapshots>
+	      <repository>
+                     <id>springfeed</id>
+                     <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
+                     <releases>
+                     <enabled>true</enabled>
+                     </releases>
+                     <snapshots>
+                     <enabled>true</enabled>
+                     </snapshots>
               </repository>
 	</distributionManagement>
 	<dependencies>
