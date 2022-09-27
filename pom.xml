@@ -29,7 +29,7 @@
 	<repositories>
            <repository>
               <id>Feed</id>
-               <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
+               <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/Artifact/maven/v1</url>
               <releases>
               <enabled>true</enabled>
               </releases>
@@ -42,7 +42,7 @@
 	<distributionManagement>
             <repository>
               <id>Feed</id>
-               <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
+               <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/Artifact/maven/v1</url>
               <releases>
               <enabled>true</enabled>
               </releases>
