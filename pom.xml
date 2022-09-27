@@ -25,30 +25,34 @@
 		<sonar.organization>genspringboot-project</sonar.organization>
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
+	
 	<repositories>
-	    <repository>
-                <id>springfeed</id>
-                <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
-                <releases>
-                <enabled>true</enabled>
-                </releases>
-                <snapshots>
-                <enabled>true</enabled>
-                </snapshots>
-           </repository>
+           <repository>
+              <id>Feed</id>
+               <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+             </repository>
         </repositories>
+	
 	<distributionManagement>
-	      <repository>
-                     <id>springfeed</id>
-                     <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
-                     <releases>
-                     <enabled>true</enabled>
-                     </releases>
-                     <snapshots>
-                     <enabled>true</enabled>
-                     </snapshots>
-              </repository>
-	</distributionManagement>
+            <repository>
+              <id>Feed</id>
+               <url>https://pkgs.dev.azure.com/chandanapappu999/bdaedb11-0db5-437b-a919-b141bd6d4775/_packaging/springfeed/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+            </repository>
+        </distributionManagement>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
