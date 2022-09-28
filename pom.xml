@@ -28,8 +28,8 @@
 	
 	<repositories>
            <repository>
-              <id>springfeed</id>
-              <url>https://pkgs.dev.azure.com/chandana9990231/c90b3508-5732-4552-aafc-04a514185abe/_packaging/springfeed/maven/v1</url>
+              <id>newfeed</id>
+              <url>https://pkgs.dev.azure.com/chandana9990231/java-maven/_packaging/newfeed/maven/v1</url>
               <releases>
               <enabled>true</enabled>
               </releases>
@@ -41,15 +41,15 @@
 	
 	<distributionManagement>
             <repository>
-              <id>springfeed</id>
-              <url>https://pkgs.dev.azure.com/chandana9990231/c90b3508-5732-4552-aafc-04a514185abe/_packaging/springfeed/maven/v1</url>
-              <releases>
-              <enabled>true</enabled>
-              </releases>
-              <snapshots>
-              <enabled>true</enabled>
-              </snapshots>
-            </repository>
+               <id>newfeed</id>
+               <url>https://pkgs.dev.azure.com/chandana9990231/java-maven/_packaging/newfeed/maven/v1</url>
+               <releases>
+               <enabled>true</enabled>
+               </releases>
+               <snapshots>
+               <enabled>true</enabled>
+               </snapshots>
+               </repository>
         </distributionManagement>
 	
 	
